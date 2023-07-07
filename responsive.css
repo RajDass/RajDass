@@ -1,0 +1,991 @@
+@media only screen and (max-width: 1025px) {
+
+    /* header start  */
+    .header .navbar>ul>li>a {
+        padding-left: 3rem;
+        font-size: 1.1rem;
+    }
+    .header-banner .header>a>img {
+        width: 100%;
+        height: 55px;
+        padding-right: 1rem;
+
+    }
+
+    /* banner section start  */
+    .banner_container {
+        height: auto;
+        padding: 2rem 0rem 2rem 4rem;
+    }
+
+    .banner_container .port-img {
+        background-image: url(./image/IMG_20230703_223931-removebg-preview.png);
+        width: 35%;
+        height: 33rem;
+        background-size: cover;
+        border-radius: 18%;
+        /* box-shadow:-1px -1px 4px #0ef; */
+        border: 1px solid #0ef;
+        border-top: none;
+        border-bottom: none;
+        animation: move 1s linear infinite;
+        animation-direction: alternate;
+    }
+
+    .banner_container .content>div>h2 {
+        margin-bottom: 1.1rem;
+        font-size: 1.8rem;
+    }
+    
+    .banner_container .content>div>h1 {
+        font-size: 3rem;
+        margin-bottom: 1.7rem;
+    }
+
+    .banner_container .content .all-links>a {
+        margin-top: 1rem;
+        margin-bottom: 1.7rem;
+    }
+
+    .banner_container .content .all-links{
+        position: absolute;
+        left: 5%;
+        top: 21.8%;
+        bottom: 0%;
+        display: block;
+      
+    }
+    .banner_container .content .all-links>a{
+        display: block;
+        padding: 6px 12px;
+        width: 2.7rem;
+        height: 2.5rem;
+        border: 1px solid #0ef;
+        border-radius: 50%;
+        font-size: 1.3rem;
+        color: #0ef;
+        margin-top: 1rem;
+        box-shadow: 0.5px 0.5px 6px #0ef;
+        margin-bottom: 1.8rem;
+        transition: 0.3s ease-in;
+        text-decoration: none;
+    }
+
+    .banner_container .content .cv {
+        margin-top: 2.5rem;
+    }
+
+    /* banner section end  */
+
+    /* about section start  */
+    .about {
+        height: auto;
+        width: 100%;
+        padding: 3.5rem 2rem;
+        overflow: hidden;
+    }
+
+    .about .about-container .left-about-img {
+        width: 35%;
+        display: none;
+    }
+
+    .about .about-container .left-about-img>img {
+        height: 40vh;
+        padding-bottom: 2rem;
+    }
+
+    .about .about-container .right-about {
+        width: 100%;
+    }
+
+    .about .about-container .right-about>h1 {
+        font-size: 3rem;
+        margin-top: 1.9rem;
+    }
+
+    .about .about-container .right-about>h1>span {
+        font-size: 3rem;
+    }
+
+    .about .about-container .right-about>h3 {
+        margin-bottom: 1.8rem;
+        font-size: 1.4rem;
+    }
+
+    .about .about-container .right-about>p {
+        font-weight: 400;
+        margin-bottom: 10px;
+        line-height: 1.5rem;
+        font-size: 1.1rem;
+    }
+
+    .about .about-container .right-about .self-container>ul {
+        margin-top: 1.2rem;
+        margin-left: -2rem;
+    }
+
+    .about .about-container .right-about .self-container>ul>li {
+        margin: 10px 10px 10px 0px;
+    }
+
+    /* about section end  */
+
+    /* coding skills section start  */
+    .coding-skills {
+        height: auto;
+        padding: 6rem 3rem;
+        overflow: hidden;
+    }
+
+    .coding-skills>h1 {
+        font-size: 3rem;
+    }
+
+    .coding-skills>h1>span {
+        font-size: 3rem;
+    }
+
+    /* coding skills section end  */
+
+    /* education section start  */
+    .education-container {
+        height: auto;
+        width: 100%;
+        padding: 4rem 1rem;
+        overflow: hidden;
+    }
+
+    .education-container>h1 {
+        font-size: 3rem;
+    }
+
+    .education-container>h1>span {
+        font-size: 3rem;
+    }
+
+    .education-container .education-content>div {
+        text-align: center;
+        width: 100%;
+        margin: 4rem 0rem 0px 0rem;
+    }
+
+    .education-container .education-content>div>h1 {
+        font-size: 1.4rem;
+    }
+
+    .education-container .education-content {
+        display: block;
+    }
+
+    .education-container .education-content>div>p {
+        font-size: 1.2rem;
+        letter-spacing: 0.4px;
+    }
+
+    /* education section end  */
+
+
+    /* service section  */
+    .section-container {
+        padding: 4rem 3rem;
+        height: auto;
+        width: 100%;
+        overflow: hidden;
+    }
+
+    .section-container>h1 {
+        font-size: 3rem;
+    }
+
+    .section-container .service-section {
+        height: auto;
+        width: 100%;
+        display: block;
+        margin-top: 3rem;
+    }
+
+    .section-container .service-section>div {
+        height: auto;
+        width: 100%;
+        margin: 1rem 0rem;
+        border: 2px solid #0ef;
+        text-align: center;
+        padding: 1.4rem;
+        border-radius: 15%;
+    }
+
+    .section-container .service-section>div>i {
+        font-size: 2.5rem;
+    }
+
+    .section-container .service-section>div>h1 {
+        font-size: 2rem;
+    }
+
+    .section-container .service-section>div>p {
+        font-size: 1.1rem;
+    }
+
+    /* service section end */
+
+    /* porfolio start  */
+    .portfolio-container {
+        padding: 4rem 2rem;
+        overflow: hidden;
+        width: 100%;
+        height: auto;
+    }
+
+    .portfolio-container>h1 {
+        font-size: 3rem;
+    }
+
+    .portfolio-container .portfolio {
+        margin-top: 2rem;
+    }
+
+    .portfolio-container .portfolio div {
+        margin: 0px 0px;
+    }
+
+    .portfolio-container .portfolio div a img {
+        width: 90%;
+        margin: 1rem 0rem 1rem 0rem;
+        border-radius: 1.2rem;
+    }
+
+    /* porfolio end  */
+
+    /* contact us section start  */
+    .contact-us {
+        height: auto;
+        width: 100%;
+        padding: 4rem;
+        overflow: hidden;
+    }
+
+    .contact-us>h1 {
+        font-size: 3rem;
+    }
+
+    .contact-us>h1>span {
+        font-size: 3rem;
+    }
+
+    .contact-us .form>input {
+        width: 90%;
+        margin: 10px 0px;
+        height: 3rem;
+    }
+
+    .contact-us .form>textarea {
+        width: 90%;
+    }
+
+    .contact-us .scroll-up {
+        top: 90%;
+    }
+
+    /* contact us section end  */
+}
+
+@media only screen and (max-width: 768px) {
+
+    /* header start  */
+    .header-banner {
+        padding: 2rem 0px;
+    }
+
+
+    .header .navbar>ul {
+        margin-right: 1rem;
+    }
+
+    .header .navbar>ul>li>a {
+        padding-left: 2rem;
+    }
+    .header-banner .header>a>img {
+        width: 100%;
+        height: 45px;
+        padding-right: 1rem;
+
+    }
+
+    /* banner section start  */
+    .banner_container {
+        height: 50vh;
+        padding-bottom: 5rem;
+    }
+
+    .banner_container .port-img {
+        background-image: url(./image/IMG_20230703_223931-removebg-preview.png);
+        width: 60%;
+        height: 40vh;
+        background-size: cover;
+        border-radius: 18%;
+        /* box-shadow:-1px -1px 4px #0ef; */
+        border: 1px solid #0ef;
+        border-top: none;
+        border-bottom: none;
+        animation: move 1s linear infinite;
+        animation-direction: alternate;
+        margin-right: 2rem;
+    }
+
+
+    .banner_container .content>h2 {
+        font-size: 1.3rem;
+        margin-bottom: 3rem;
+    }
+
+    .banner_container .content {
+        margin-left: 2rem;
+        margin-bottom: 2rem;
+    }
+
+    .banner_container .content>h1 {
+        font-size: 2rem;
+        margin-bottom: 2.4rem;
+    }
+
+    .banner_container .content .all-links>a {
+        margin-top: 1.2rem;
+        margin-bottom: 1.9rem;
+    }
+    .banner_container .content .all-heading{
+        margin-top: 2rem;
+    }
+
+    .banner_container .content .all-links{
+        position: absolute;
+        left: 5%;
+        top: 19.8%;
+        bottom: 0%;
+        display: block;
+      
+    }
+    .banner_container .content .all-links>a{
+        display: block;
+        padding: 6px 12px;
+        width: 2.7rem;
+        height: 2.5rem;
+        border: 1px solid #0ef;
+        border-radius: 50%;
+        font-size: 1.3rem;
+        color: #0ef;
+        margin-top: 1rem;
+        box-shadow: 0.5px 0.5px 6px #0ef;
+        margin-bottom: 2.3rem;
+        transition: 0.3s ease-in;
+        text-decoration: none;
+    }
+    .banner_container .content .cv {
+        margin-top: 2rem;
+    }
+    /* banner section end  */
+
+    /* about section start  */
+    .about {
+        height: auto;
+        width: 100%;
+        padding: 2.5rem 2.5rem;
+        overflow: hidden;
+    }
+
+    .about .about-container {
+        display: block;
+        justify-content: space-evenly;
+        align-items: center;
+        color: #fff;
+    }
+
+    .about .about-container .left-about-img {
+        background-image: none;
+        width: 0%;
+        height: 0vh;
+        display: none;
+        background-size: cover;
+        border-radius: 30%;
+        box-shadow: 5px 5px 9px #0ef;
+        animation: move 1s linear infinite;
+        animation-direction: alternate;
+    }
+
+    .about .about-container .right-about {
+        width: 100%;
+        /* text-align: center; */
+    }
+
+    .about .about-container .right-about>h1 {
+        font-size: 2.6rem;
+        margin-top: 1.9rem;
+    }
+
+    .about .about-container .right-about>h1>span {
+        font-size: 2.6rem;
+    }
+
+    .about .about-container .right-about>h3 {
+        margin-bottom: 1.8rem;
+        font-size: 1.4rem;
+    }
+
+    .about .about-container .right-about>p {
+        font-weight: 400;
+        margin-bottom: 10px;
+        line-height: 1.5rem;
+        font-size: 1.1rem;
+    }
+
+    .about .about-container .right-about .self-container>ul {
+        margin-top: 1.2rem;
+        margin-left: -2rem;
+    }
+
+    .about .about-container .right-about .self-container>ul>li {
+        margin: 10px 10px 10px 0px;
+    }
+
+    /* about section end  */
+
+    /* coding skills section start  */
+    .coding-skills {
+        height: auto;
+        padding: 3rem;
+        overflow: hidden;
+    }
+
+    .coding-skills>h1 {
+        font-size: 2.8rem;
+    }
+
+    .coding-skills>h1>span {
+        font-size: 2.8rem;
+    }
+
+    /* coding skills section end  */
+
+
+    /* education section start  */
+    .education-container {
+        height: auto;
+        width: 100%;
+        padding: 4rem 0rem;
+        overflow: hidden;
+    }
+
+    .education-container>h1 {
+        font-size: 2.8rem;
+    }
+
+    .education-container>h1>span {
+        font-size: 2.8rem;
+    }
+
+    .education-container .education-content>div {
+        text-align: center;
+        width: 100%;
+        margin: 4rem 0rem 0px 0rem;
+    }
+
+    .education-container .education-content>div>h1 {
+        font-size: 1.2rem;
+    }
+
+    .education-container .education-content {
+        display: block;
+    }
+
+    .education-container .education-content>div>p {
+        font-size: 1.1rem;
+        letter-spacing: 0.4px;
+    }
+
+    /* education section end  */
+
+    .section-container {
+        padding: 3rem;
+        height: auto;
+        width: 100%;
+        overflow: hidden;
+    }
+
+    .section-container>h1 {
+        font-size: 2.8rem;
+    }
+
+    .section-container .service-section {
+        height: auto;
+        width: 100%;
+        display: block;
+        margin-top: 3rem;
+    }
+
+    .section-container .service-section>div {
+        height: auto;
+        width: 100%;
+        margin: 1rem 0rem;
+        border: 2px solid #0ef;
+        text-align: center;
+        padding: 1.4rem;
+        border-radius: 15%;
+    }
+
+    .section-container .service-section>div>i {
+        font-size: 2.2rem;
+    }
+
+    .section-container .service-section>div>h1 {
+        font-size: 1.8rem;
+    }
+
+    /* service section end */
+
+    /* porfolio start  */
+    .portfolio-container {
+        padding: 2rem 1rem;
+        overflow: hidden;
+        width: 100%;
+        height: auto;
+    }
+
+    .portfolio-container>h1 {
+        font-size: 2.8rem;
+    }
+
+    .portfolio-container .portfolio {
+        margin-top: 2rem;
+    }
+
+    .portfolio-container .portfolio div {
+        margin: 0px 0px;
+    }
+
+    .portfolio-container .portfolio div a img {
+        width: 90%;
+        margin: 1rem 0rem 1rem 0rem;
+        border-radius: 1.2rem;
+    }
+
+    /* porfolio end  */
+    /* contact us section start  */
+    .contact-us {
+        height: auto;
+        width: 100%;
+        padding: 3rem;
+        overflow: hidden;
+    }
+
+    .contact-us>h1 {
+        font-size: 2.8rem;
+    }
+
+    .contact-us>h1>span {
+        font-size: 2.8rem;
+    }
+
+    .contact-us .form>input {
+        width: 80%;
+        margin: 10px 0px;
+        height: 3rem;
+    }
+
+    .contact-us .form>textarea {
+        width: 80%;
+    }
+
+    .contact-us .scroll-up {
+        top: 88.5%;
+    }
+
+    /* contact us section end  */
+}
+
+/* .box{
+    width: 50%;
+    height: 50vh;
+    margin: auto;
+} */
+
+@media only screen and (max-width: 500px) {
+
+    /* loader  */
+    /* body {
+        background-color: #222;
+    }
+
+    .box {
+        height: 100vh;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+    } */
+/* 
+    #load-er {
+        width: 100%;
+        height: 100vh;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        position: fixed;
+        z-index: 11;
+
+    } */
+
+    /* loader end  */
+
+
+    /* sticky navbar  */
+    .header-banner .sticky {
+        position: fixed;
+        top: 0px;
+        position: fixed;
+        background-color: #161920;
+        width: 100%;
+        z-index: 1000;
+        padding: 1rem 0rem 1rem 0rem;
+        transition: 0.3s ease-in;
+    }
+    /* sticky navbar end */
+    .header-banner {
+        height: auto;
+        width: 100%;
+        padding: 1rem 0px;
+    }
+
+    .header-banner .header>a>img {
+        width: 100%;
+        height: 35px;
+        padding-right: 1rem;
+
+    }
+
+    .header .navbar {
+        position: fixed;
+        height: 100vh;
+        top: 0px;
+        left: 0px;
+        padding: 0px;
+        width: 370px;
+        background-color: #1f242dea;
+        z-index: 1000;
+    }
+
+    #mobile-cross {
+        position: relative;
+
+        bottom: 115px;
+        /* left: 200px;   */
+        float: right;
+
+        text-decoration: none;
+    }
+
+    #mobile-cross>i {
+        font-size: 1.5rem;
+        color: #0ef;
+    }
+
+    .header .navbar>ul {
+        display: block;
+        width: 100%;
+        text-align: center;
+        margin-bottom: 30px;
+    }
+
+    .header .navbar>ul>li {
+        padding: 30px 0px;
+    }
+
+    .header .navbar>ul>li>a {
+        display: block;
+        color: #fff;
+        padding-left: 0rem;
+        font-size: 1.1rem;
+    }
+
+    .header .navbar {
+        left: -370px;
+        transition: 0.5s ease;
+    }
+
+    #mobile-bar {
+        color: #0ef;
+        font-size: 1.6rem;
+        padding-left: 70px;
+    }
+
+    #mobile-cross,
+    #mobile-bar {
+        display: block;
+    }
+
+    #logo-r {
+        float: left;
+    }
+
+    /* banner section start  */
+    .banner_container {
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column-reverse;
+        padding: 0rem 0rem;
+    }
+
+    .banner_container .port-img {
+        margin-top: 2rem;
+        background-image: url(./image/IMG_20230703_223931-removebg-preview.png);
+        width: 85%;
+        height: 60vh;
+        margin-left: 2rem;
+        background-size: cover;
+        background-position: center center;
+        border-radius: 0%;
+        /* box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px; */
+        box-shadow: -4px 0px 13px #44777b;
+        border: none;
+        border-top: none;
+        border-bottom: none;
+        animation: move 1s linear infinite;
+        animation-direction: alternate;
+        border-radius: 10%;
+    }
+
+    @keyframes move {
+        0% {
+            transform: translateY(0rem);
+        }
+
+        100% {
+            transform: translateY(0rem);
+        }
+    }
+
+    .banner_container .content>div>h2 {
+        font-size: 1.4rem;
+
+        margin-bottom: 0.9rem;
+    }
+    .banner_container .content .all-heading{
+        margin-top: 3rem;
+    }
+
+    .banner_container .content>div>h1 {
+        font-size: 2.3rem;
+        margin-bottom: 0.9rem;
+    }
+
+    .banner_container .content .all-links {
+        position: relative;
+        left: 0%;
+        top: 0px;
+        display: flex;
+
+    }
+
+    .banner_container .content .all-links>a {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 0px 0px;
+        margin-top: 0rem;
+        margin-bottom: 0rem;
+        width: 2rem;
+        height: 2rem;
+    }
+
+    .banner_container .content .cv {
+        margin-top: 1.9rem;
+        margin-bottom: 3rem;
+    }
+
+    .banner_container .content .cv>a {
+        padding: 10px 35px 10px 35px;
+    }
+
+    /* banner section end  */
+
+    /* about section start  */
+    .about {
+        padding: 2rem 1rem;
+        overflow: hidden;
+    }
+
+    .about .about-container .left-about-img {
+        width: 0px;
+        display: none;
+    }
+
+    .about .about-container .left-about-img>img {
+        display: none;
+    }
+
+    .about .about-container .right-about {
+        width: 100%;
+    }
+
+    .about .about-container .right-about>h1 {
+        font-size: 2rem;
+        margin-top: 1.1rem;
+    }
+
+    .about .about-container .right-about>h1>span {
+        font-size: 2rem;
+    }
+
+    .about .about-container .right-about>h3 {
+        margin-bottom: 1.5rem;
+        font-size: 1.2rem;
+    }
+
+    .about .about-container .right-about>p {
+        font-size: 1rem;
+    }
+
+    .about .about-container .right-about .self-container>ul>li {
+        font-size: 1rem;
+    }
+
+    /* about section end  */
+
+    /* coding skills section start  */
+    .coding-skills {
+        padding: 2.5rem 1rem;
+        overflow: hidden;
+    }
+
+    .coding-skills>h1 {
+        font-size: 1.7rem;
+    }
+
+    .coding-skills>h1>span {
+        font-size: 1.7rem;
+    }
+
+    /* coding skills section end  */
+
+    /* education section start  */
+    .education-container {
+        height: auto;
+        width: 100%;
+        padding: 2.8rem 1rem;
+        overflow: hidden;
+    }
+
+    .education-container>h1 {
+        font-size: 1.7rem;
+    }
+
+    .education-container>h1>span {
+        font-size: 1.7rem;
+    }
+
+    .education-container .education-content>div {
+        text-align: center;
+        width: 100%;
+        margin: 2.4rem 0rem 0px 0rem;
+    }
+
+    .education-container .education-content>div>h1 {
+        font-size: 1.2rem;
+    }
+
+    .education-container .education-content>div>p {
+        font-size: 1.1rem;
+        letter-spacing: 0.4px;
+    }
+
+    /* education section end  */
+
+    /* service section  */
+    .section-container {
+        padding: 2.5rem 1rem;
+    }
+
+    .section-container>h1 {
+        font-size: 1.7rem;
+    }
+
+    .section-container .service-section {
+        margin-top: 2rem;
+    }
+
+    .section-container .service-section>div {
+        padding: 1.2rem;
+    }
+
+    .section-container .service-section>div>i {
+        font-size: 1.8rem;
+    }
+
+    .section-container .service-section>div>h1 {
+        font-size: 1.4rem;
+    }
+
+    .section-container .service-section>div>p {
+        font-size: 1rem;
+    }
+
+    .section-container .service-section>div>button {
+        padding: 4px 20px 4px 20px;
+        font-size: 1rem;
+        margin-top: 0px;
+    }
+
+    /* service section end */
+
+    /* porfolio start  */
+    .portfolio-container {
+        padding: 2.5rem 1rem;
+    }
+
+    .portfolio-container>h1 {
+        font-size: 1.7rem;
+    }
+
+    .portfolio-container .portfolio {
+        margin-top: 2rem;
+    }
+
+    .portfolio-container .portfolio div a img {
+        width: 100%;
+    }
+
+    /* porfolio end  */
+
+
+    /* contact us section start  */
+    .contact-us {
+        padding: 2rem 1rem;
+    }
+
+    .contact-us>h1 {
+        font-size: 1.7rem;
+    }
+
+    .contact-us>h1>span {
+        font-size: 1.7rem;
+    }
+
+    .contact-us .form>input {
+        width: 95%;
+    }
+
+    .contact-us .form>textarea {
+        width: 95%;
+    }
+
+    .contact-us .scroll-up {
+        top: 88.8%;
+    }
+
+    .contact-us>button {
+        padding: 5px 20px 5px 20px;
+        font-size: 1rem;
+        margin-top: 1.5rem;
+    }
+
+    /* contact us section end  */
+}
