@@ -248,7 +248,7 @@ body{
 
 /* coding skills section start  */
 .coding-skills{
-    height: 100vh;
+    height: auto;
     padding: 5rem;
     background-color:#161920;
     overflow: hidden;
@@ -284,7 +284,7 @@ body{
 
 /* education section start  */
 .education-container{
-    height: 80vh;
+    height: auto;
     width: 100%;
     background-color:#1f242d;
     padding: 4rem;
@@ -329,7 +329,7 @@ body{
 /* service section start  */
 .section-container{
     padding: 5rem;
-    height: 100vh;
+    height: auto;
     background-color:#161920;
 
 }
@@ -409,7 +409,7 @@ body{
 /* porfolio start  */
 .portfolio-container{
     width: 100%;
-    height: 100vh;
+    height: auto;
     background-color:#1f242d;
     padding: 4rem;
     /* overflow: hidden; */
